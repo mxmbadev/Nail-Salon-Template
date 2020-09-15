@@ -1,0 +1,245 @@
+@import "global/all";
+
+div.container{
+    max-width: 1440px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+body{
+    font-family: 'Lato', sans-serif !important;
+}
+
+section h1{
+    font-size: 50px;
+}
+
+nav{
+    background-color: transparent;
+    a.navbar-brand{
+        color: $white;
+        font-weight: 700;
+    }
+    ul{
+        .nav-item{
+            padding: 0 20px;
+            a{color: $white; font-weight: 400;}
+        }
+    }    
+}
+
+p, a{
+    font-size: 20px;
+}
+
+.title{
+    h1{
+        font-weight: 700;
+    }
+    hr{
+        border: 3px solid $peach;
+    }
+}
+
+#hero{
+    background-image: url('../img/hero-bg.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 100px;
+    height: auto;
+    margin-top: -62px;
+    .hero-text{
+        padding-top: 60%;
+        text-align: center;
+        h1{
+            color: $white;
+            font-size: 64px;
+            text-align: center;
+            &:nth-child(2){
+                font-size: 150px;
+                letter-spacing: 26px;
+                font-weight: 900;
+                margin-left: 26px;
+            }
+        }
+        .arrow {
+            margin-top: 200px;
+            border: solid $white;
+            border-width: 0 3px 3px 0;
+            display: inline-block;
+            padding: 30px;
+            text-align: center;
+        }
+        .down {
+            transform: rotate(45deg);
+            -webkit-transform: rotate(45deg);
+        }
+    }
+}
+
+#services-overview{
+    padding-top: 6%;
+    padding-bottom: 6%;
+    .services{
+        padding-top: 3%;
+        .col-5 ul:first-child{
+            padding-bottom: 20px;
+        }
+        ul{
+            font-size: 20px;
+            list-style-type: none;
+            padding-left: 0px;
+            li{
+                &.service-name{
+                    color: $light-gray;
+                    padding-bottom: 20px;
+                    text-transform: uppercase;
+                }
+                &.service-with-desc{
+                    font-weight: 700;
+                    ul{
+                        font-weight: 400;
+                        padding-left: 40px;
+                    }
+                }
+            }
+            span{
+                font-weight: 900;
+            }
+        }
+    }
+}
+
+#slogan{
+    background-image: url('../img/latina.png');
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    .background-overlay{
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 300px 0;
+        .col-12{
+            text-align: center;
+            h1{
+                color: $white;
+                text-align: center;
+            }
+            a{
+                padding: 10px 30px;
+                background-color: $peach;
+                border: 2px solid $peach;
+            }
+        }
+    }
+}
+
+#about-us{
+    padding: 6% 0;
+    .desc{
+        padding-top: 3%;
+        p{
+            padding-right: 35px;
+        }
+        a{
+            color: $peach;
+            text-decoration: underline;
+        }
+    }
+}
+
+#check-us-out{
+    padding: 6% 0;
+    .title{
+        text-align: center;
+        margin: 0 auto;
+        padding-bottom: 3%;
+    }
+    .ig-feed{
+        padding: 5px;
+        p{
+            padding-left: 10px;
+            font-weight: 700;
+        }
+        img{
+            display: block;
+            max-width: 100%;
+        }
+    }
+}
+
+#map-location{
+    background-image: url('../img/hair-salon-location.png');
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+}
+
+#contact-us{
+    padding: 6% 0;
+    form{
+        width: 100%;
+        input{
+            border-bottom: 1px solid $black;
+            border-left: 0px;
+            border-right: 0px;
+            border-top: 0px;
+            border-radius: 0px;
+            @include transition(all, .3s ease-in-out);
+            &::placeholder{
+                color: $black;
+            }
+            &:focus{
+                box-shadow: none;
+                border-width: 2px;
+                border-color: $peach;
+            }
+        }
+        textarea{
+            padding-top: 50px;
+            border-bottom: 1px solid $black;
+            border-left: 0px;
+            border-right: 0px;
+            border-top: 0px;
+            border-radius: 0px;
+            &::placeholder{
+                color: $black;
+            }
+            &:focus{
+                box-shadow: none;
+                border-width: 2px;
+                border-color: $peach;
+            }
+        }
+        .btn-primary{
+            margin-top: 50px;
+            padding: 10px 30px;
+            background-color: $peach;
+            border: 2px solid $peach;
+        }
+
+    }
+    .title{
+        padding-bottom: 3%;
+    }
+}
+
+footer{
+    background: $peach;
+    color: $white;
+    padding: 20px 0px;
+    p{
+        font-size: 18px;
+    }
+    .address{
+        text-align: center;
+    }
+    .phone-number{
+        text-align: right;
+    }
+}

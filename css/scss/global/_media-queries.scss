@@ -1,0 +1,52 @@
+@media(max-width: 768px){
+    .desc .row div{
+        padding-bottom: 30px;
+    }
+
+    .services .row div:last-child{
+        padding-bottom: 50px;
+        img{
+            width: 100%;
+        }
+    }
+}
+
+@media(max-width: 600px){
+    #hero .container .hero-text{
+        padding-top: 100%;
+        h1{
+            font-size: 50px;
+            &:nth-child(2){
+                font-size: 80px;
+            }
+        }
+        .arrow{
+            margin-top: 50px;
+            padding: 20px;
+        }
+    }
+    .service-name{
+        padding-top: 60px;
+    }
+    section#services-overview, section#about-us, section#check-us-out, section#contact-us{
+        padding-top: 20%;
+        padding-bottom: 20%;
+    } 
+}
+
+@media(max-width: 500px){
+    #hero .container .hero-text{
+        height: 100vh;
+        padding-top: 200%;
+        h1{
+            font-size: 50px;
+            letter-spacing: -2px;
+            &:nth-child(2){
+                font-size: 60px;
+            }
+        }
+        .arrow{
+            display: none;
+        }
+    }
+}

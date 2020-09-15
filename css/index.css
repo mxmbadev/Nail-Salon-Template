@@ -1,0 +1,293 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+@media (max-width: 768px) {
+  .desc .row div {
+    padding-bottom: 30px;
+  }
+
+  .services .row div:last-child {
+    padding-bottom: 50px;
+  }
+  .services .row div:last-child img {
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  #hero .container .hero-text {
+    padding-top: 100%;
+  }
+  #hero .container .hero-text h1 {
+    font-size: 50px;
+  }
+  #hero .container .hero-text h1:nth-child(2) {
+    font-size: 80px;
+  }
+  #hero .container .hero-text .arrow {
+    margin-top: 50px;
+    padding: 20px;
+  }
+
+  .service-name {
+    padding-top: 60px;
+  }
+
+  section#services-overview, section#about-us, section#check-us-out, section#contact-us {
+    padding-top: 20%;
+    padding-bottom: 20%;
+  }
+}
+@media (max-width: 500px) {
+  #hero .container .hero-text {
+    height: 100vh;
+    padding-top: 200%;
+  }
+  #hero .container .hero-text h1 {
+    font-size: 50px;
+    letter-spacing: -2px;
+  }
+  #hero .container .hero-text h1:nth-child(2) {
+    font-size: 60px;
+  }
+  #hero .container .hero-text .arrow {
+    display: none;
+  }
+}
+div.container {
+  max-width: 1440px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+body {
+  font-family: "Lato", sans-serif !important;
+}
+
+section h1 {
+  font-size: 50px;
+}
+
+nav {
+  background-color: transparent;
+}
+nav a.navbar-brand {
+  color: #fff;
+  font-weight: 700;
+}
+nav ul .nav-item {
+  padding: 0 20px;
+}
+nav ul .nav-item a {
+  color: #fff;
+  font-weight: 400;
+}
+
+p, a {
+  font-size: 20px;
+}
+
+.title h1 {
+  font-weight: 700;
+}
+.title hr {
+  border: 3px solid #FD936B;
+}
+
+#hero {
+  background-image: url("../img/hero-bg.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 100px;
+  height: auto;
+  margin-top: -62px;
+}
+#hero .hero-text {
+  padding-top: 60%;
+  text-align: center;
+}
+#hero .hero-text h1 {
+  color: #fff;
+  font-size: 64px;
+  text-align: center;
+}
+#hero .hero-text h1:nth-child(2) {
+  font-size: 150px;
+  letter-spacing: 26px;
+  font-weight: 900;
+  margin-left: 26px;
+}
+#hero .hero-text .arrow {
+  margin-top: 200px;
+  border: solid #fff;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 30px;
+  text-align: center;
+}
+#hero .hero-text .down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+#services-overview {
+  padding-top: 6%;
+  padding-bottom: 6%;
+}
+#services-overview .services {
+  padding-top: 3%;
+}
+#services-overview .services .col-5 ul:first-child {
+  padding-bottom: 20px;
+}
+#services-overview .services ul {
+  font-size: 20px;
+  list-style-type: none;
+  padding-left: 0px;
+}
+#services-overview .services ul li.service-name {
+  color: #AAAAAA;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+#services-overview .services ul li.service-with-desc {
+  font-weight: 700;
+}
+#services-overview .services ul li.service-with-desc ul {
+  font-weight: 400;
+  padding-left: 40px;
+}
+#services-overview .services ul span {
+  font-weight: 900;
+}
+
+#slogan {
+  background-image: url("../img/latina.png");
+  background-size: cover;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: auto;
+}
+#slogan .background-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 300px 0;
+}
+#slogan .background-overlay .col-12 {
+  text-align: center;
+}
+#slogan .background-overlay .col-12 h1 {
+  color: #fff;
+  text-align: center;
+}
+#slogan .background-overlay .col-12 a {
+  padding: 10px 30px;
+  background-color: #FD936B;
+  border: 2px solid #FD936B;
+}
+
+#about-us {
+  padding: 6% 0;
+}
+#about-us .desc {
+  padding-top: 3%;
+}
+#about-us .desc p {
+  padding-right: 35px;
+}
+#about-us .desc a {
+  color: #FD936B;
+  text-decoration: underline;
+}
+
+#check-us-out {
+  padding: 6% 0;
+}
+#check-us-out .title {
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 3%;
+}
+#check-us-out .ig-feed {
+  padding: 5px;
+}
+#check-us-out .ig-feed p {
+  padding-left: 10px;
+  font-weight: 700;
+}
+#check-us-out .ig-feed img {
+  display: block;
+  max-width: 100%;
+}
+
+#map-location {
+  background-image: url("../img/hair-salon-location.png");
+  background-size: cover;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+}
+
+#contact-us {
+  padding: 6% 0;
+}
+#contact-us form {
+  width: 100%;
+}
+#contact-us form input {
+  border-bottom: 1px solid #000;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+  border-radius: 0px;
+  transition: all, 0.3s ease-in-out;
+}
+#contact-us form input::placeholder {
+  color: #000;
+}
+#contact-us form input:focus {
+  box-shadow: none;
+  border-width: 2px;
+  border-color: #FD936B;
+}
+#contact-us form textarea {
+  padding-top: 50px;
+  border-bottom: 1px solid #000;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+  border-radius: 0px;
+}
+#contact-us form textarea::placeholder {
+  color: #000;
+}
+#contact-us form textarea:focus {
+  box-shadow: none;
+  border-width: 2px;
+  border-color: #FD936B;
+}
+#contact-us form .btn-primary {
+  margin-top: 50px;
+  padding: 10px 30px;
+  background-color: #FD936B;
+  border: 2px solid #FD936B;
+}
+#contact-us .title {
+  padding-bottom: 3%;
+}
+
+footer {
+  background: #FD936B;
+  color: #fff;
+  padding: 20px 0px;
+}
+footer p {
+  font-size: 18px;
+}
+footer .address {
+  text-align: center;
+}
+footer .phone-number {
+  text-align: right;
+}
+/*# sourceMappingURL=index.css.map */
